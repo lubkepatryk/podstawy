@@ -1,0 +1,13 @@
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+  width: 150px;
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  width: 150px;
+  padding: 25px;
+  border: 25px solid black;
+  margin: 25px;
+  box-sizing: border-box;
+}
