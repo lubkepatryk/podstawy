@@ -1,0 +1,121 @@
+#canvas {                              /* ID jako selektor */
+  width: 300px;                        /* sta³a szerokoœæ w pikselach */
+  height: 300px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px grey;     /* cieñ -- h-shadow v-shadow [blur] [spread] color */
+
+}
+
+/* 
+
+box-shadow: h-shadow v-shadow [blur] [spread] color;
+h-shadow jest poziom¹ pozycj¹ cienia,
+v-shadow jest pionow¹
+
+*/
+
+#first-row {
+  height: 75%;      /* wzglêdna szerokoœæ */
+  width: 100%;
+  }
+
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+
+.red {              /* klasa jako selektor */
+  background-color: red;
+}
+
+.right {
+  float: right;     /* zawieszenie ("float") z prawej */
+}
+
+.black {
+  background-color: black;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+
+#second-divider {
+  height: 3%;
+  width: 100%;
+}
+
+#first-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
+
+#second-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
+
+#second-row {
+  height: 3%;
+  width: 100%;
+}
+
+#third-row {
+  height: 22%;
+  width: 100%;
+}
+
+#last-column {
+  height: 100%;
+  width: 5%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+#first-small-rectangle {
+  height: 45%;
+  width: 100%;
+}
+
+#second-small-rectangle {
+  height: 45%;
+  width: 100%;
+}
+
+#third-divider {
+  height: 10%;
+  width: 100%;
+}
+
+#fourth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#fifth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#wide-rectangle {
+  height: 100%;
+  width: 67%;
+}
+
+#third-small-rectangle {
+  height: 100%;
+  width: 22%;
+}
+
+.blue {
+  background-color: blue;
+}
