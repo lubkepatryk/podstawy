@@ -1,0 +1,128 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+/* Pozycjonowanie */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Linki kontaktowe */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* Linki kontaktowe */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+body {
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* 
+
+Pierwsza zasada jest skrótem tego:
+background-image: url('http://i.imgur.com/9kh3G8L.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+
+Mówi przegl¹darce,
+- gdzie jest obrazek,
+- ¿e obrazek powinien zostaæ wyœwietlony tylko raz,
+- wyœrodkowany zarówno w pionie, jak i w poziomie oraz
+- ¿e nie powinien przesuwaæ siê ze stron¹.
+
+W³aœciwoœæ background-size: cover mówi przegl¹darce, by obrazek t³a by³ tak du¿y, aby pokryæ ca³y obszar t³a.
+
+*/
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+h1, h2 {
+  font-family: 'Alfa Slab One', cursive;
+  color: hsl(0, 0%, 0%, .6);
+}
+
+span, p {
+  font-family: 'Gentium Book Basic', serif;
+  color: hsl(0, 0%, 0%, .6);
+}
+
+.social-icon {
+  color: hsl(0, 0%, 0%, .6)
+}
+
+
